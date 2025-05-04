@@ -1,5 +1,30 @@
-#root{
-    color: rgb(230, 132, 20);
-    background-color: rgb(101, 27, 110);
-    margin-left: 20%;
-    margin-right: 50%;}
+#heading{
+    color: rgb(243, 82, 8);
+    font-size: 40px;
+    }
+
+h1{
+    color: rgb(60, 32, 221);
+    font-size: 30px;
+    }
+.header{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 100px;
+}
+.nav-items > ul{
+    font-size: 24px;  
+    display: flex;
+    padding: 0px 20px; 
+    list-style-type: none;
+
+}
+.nav-items > ul > li {
+    color: rgb(226, 43, 43);
+    padding: 15p;
+    margin: 15px;
+}
