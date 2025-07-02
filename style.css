@@ -1,0 +1,104 @@
+
+
+#heading{
+    color: rgb(243, 82, 8);
+    font-size: 40px;
+    }
+
+h1{
+    color: rgb(60, 32, 221);
+    font-size: 30px;
+    }
+.header{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 100px;
+}
+.nav-items > ul{
+    font-size: 24px;  
+    display: flex;
+    padding: 0px 20px; 
+    list-style-type: none;
+
+}
+.nav-items > ul > li {
+    color: rgb(226, 43, 43);
+    padding: 15px;
+    margin: 15px;
+}
+
+.res-container{
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card{
+    padding: 5px;
+    width: 200px;
+}
+
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.search{
+    padding: 10px;
+
+}
+.res-logo{
+    width: 100%;
+}
+
+.filter-btn{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.shimmer-card{
+    margin: 20px;
+    height: 400px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: #f0f0f0;
+}
+
+.Login{
+    margin-top: 25px;
+    padding: 0 40px;
+    cursor: pointer;
+    height: 40px;
+} 
+
+.filter{
+    display: flex;
+}
+
+.user-card{
+    padding: 10px;
+    border: 1px solid black;
+    height: 250px;
+    width: 200px;
+}
+.button-count{
+ cursor: pointer;   
+ color: rgb(179, 255, 0);
+ background-color: rgb(240, 3, 3);
+ font: 100pxs;
+ border: 2px solid blueviolet;
+}
+.user-class-img{
+    height: 100px;
+    width: 100px;
+}

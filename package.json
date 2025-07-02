@@ -1,0 +1,53 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "namaste react first app",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RakeshDevCode/namaste-react.git"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "rakesh",
+    "bhandari"
+  ],
+  "author": "rakesh bhandari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RakeshDevCode/namaste-react/issues"
+  },
+  "homepage": "https://github.com/RakeshDevCode/namaste-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "autoprefixer": "^10.4.21",
+    "babel-jest": "^30.0.2",
+    "jest-environment-jsdom": "^30.0.0",
+    "parcel": "^2.14.4",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "@tailwindcss/postcss": "^4.1.8",
+    "jest": "^30.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.6.0",
+    "styled-components": "^6.1.18"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}
