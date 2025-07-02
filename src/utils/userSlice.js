@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import reducer, { addItem, clearItem } from "./cartSlice";
+import reducer, { addItem, clearCart } from "./cartSlice";
 
 
 const userSlice= createSlice({
@@ -14,7 +14,7 @@ const userSlice= createSlice({
         removeItem: (state)=>{
             state.action.pop();
         },
-        clearItem:(state)=>{
+        clearCart:(state)=>{
             state.action.length=0;
         }
     }
