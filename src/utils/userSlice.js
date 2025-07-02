@@ -20,6 +20,6 @@ const userSlice= createSlice({
     }
 }
 )
-export const {addItem,removeItem,clearItem}=userSlice.actions;
+export const {addItem,removeItem,clearCart}=userSlice.actions;
 
 export default userSlice.reducer;
