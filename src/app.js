@@ -9,7 +9,7 @@ import RestaurantMenu from "./components/RestaurantMenu";
 import {createBrowserRouter, RouterProvider,Outlet,} from "react-router";
 import UserContext from "./utils/UserContext";
 import { Provider } from "react-redux";
-import appStore from "./utils/AppStore";
+import appStore from "./utils/appStore";
 import Cart from "./components/Cart";
 //import Grocery from "./components/Grocery";
 
