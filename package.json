@@ -1,5 +1,4 @@
 {
-  "name": "namaste_react",
   "version": "1.0.0",
   "description": "namaste react first app",
   "scripts": {
@@ -33,7 +32,7 @@
     "autoprefixer": "^10.4.21",
     "babel-jest": "^30.0.2",
     "jest-environment-jsdom": "^30.0.0",
-    "parcel": "^2.14.4",
+    "parcel": "^2.15.4",
     "postcss": "^8.5.4",
     "tailwindcss": "^4.1.8"
   },
