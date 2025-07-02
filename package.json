@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "description": "namaste react first app",
+  "description": "foodie react app",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -39,6 +39,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "@tailwindcss/postcss": "^4.1.8",
+    "firebase": "^11.10.0",
     "jest": "^30.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
